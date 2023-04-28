@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{c5ea151e-6fe9-49e9-91af-f5127db1490f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{041c0c0d-7899-4e9f-9c5b-577bb9bcf332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\00. MainGame">
+      <UniqueIdentifier>{9519dae6-4498-4c11-86a3-4b3cebd0e891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\01. Obj">
+      <UniqueIdentifier>{34ea21b2-7929-44bb-ad75-74ee86870eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\01. Obj\00. Player">
+      <UniqueIdentifier>{9bf70e91-be93-40ad-a3c9-dce4e8e025cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Script\Util">
+      <UniqueIdentifier>{9068f763-8b83-4aa9-ab78-b0c379ce4bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\02. Line">
+      <UniqueIdentifier>{935b4402-0d0b-45b7-aa95-6eb2b24927b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Managers">
+      <UniqueIdentifier>{a54218e6-beb1-4a95-9f90-b00e26382ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Components">
+      <UniqueIdentifier>{d06a3292-439a-45f7-b3b3-f7d8b272fc3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Managers\SceneManager">
+      <UniqueIdentifier>{fa7fcede-c7f6-4eb3-a7de-973edd142f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Components\InputComponent">
+      <UniqueIdentifier>{39e5465a-b206-4599-b296-c4eacbe5eae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Components\PhysicsComponent">
+      <UniqueIdentifier>{84373490-62d6-4256-bfdd-f1fb11f53c64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Components\ColliderComponent">
+      <UniqueIdentifier>{1121cbdf-7b2e-4c33-ab0a-29dbb4fe42e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Managers\PoolManager">
+      <UniqueIdentifier>{d1bbe6db-0be3-45ee-a1e7-66ce3337bcdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Managers\ManagerMediator">
+      <UniqueIdentifier>{7ff1b814-228a-4af6-9ea6-52a3ac38db10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Components\GraphicsComponent">
+      <UniqueIdentifier>{e66327b3-13b7-4d88-bc68-e2fd217379f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Scene">
+      <UniqueIdentifier>{a02e0fbe-6cd0-4786-94a6-ecef977affd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Scene\Scene1">
+      <UniqueIdentifier>{6c965942-ab65-4ce2-aa4d-35a2f4d50ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Scene\BaseScene">
+      <UniqueIdentifier>{f35dcfb0-bc28-4688-91a9-1ddbc81eeef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\01. Obj\Block">
+      <UniqueIdentifier>{b18e7244-170b-49b9-b496-7577f998e868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\01. Obj\BaseClass">
+      <UniqueIdentifier>{a6e329db-0305-4684-a279-966f89e616e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Managers\ScrollManager">
+      <UniqueIdentifier>{59355c47-5910-4944-af80-7adc12a2f48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\01. Obj\Platform">
+      <UniqueIdentifier>{867bbb8a-786e-4440-a18a-811707b0089d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\01. Obj\Trigger">
+      <UniqueIdentifier>{6cb90d65-578d-4809-ab47-9a22393a265e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\01. Obj\Turtle">
+      <UniqueIdentifier>{89748daa-aca7-4c8e-b5b5-708e15bb98b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\01. Obj\Goomba">
+      <UniqueIdentifier>{397fede5-5ff0-4f10-8bae-3149f0e9bce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Managers\ResourceManager">
+      <UniqueIdentifier>{acc0c2d1-5c19-4ad0-a289-ccd5b17aee5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Managers\ResourceManager\BMP">
+      <UniqueIdentifier>{2b7107de-6e6b-4ad4-b1ab-95446f75d2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Scene\StartScene">
+      <UniqueIdentifier>{2eef07db-24b5-4e29-85ff-315c623c2cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Scene\EndScene">
+      <UniqueIdentifier>{477dde8e-8442-4105-9af6-3c6b12b53e26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Script\01. Obj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Script\00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultWindow.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Script\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Script\02. Line</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Script\Managers\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Script\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>Script\Components\InputComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent.h">
+      <Filter>Script\Components\PhysicsComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderComponent.h">
+      <Filter>Script\Components\ColliderComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolManager.h">
+      <Filter>Script\Managers\PoolManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers.h">
+      <Filter>Script\Managers\ManagerMediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Script\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Script\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsComponent.h">
+      <Filter>Script\Components\GraphicsComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene1.h">
+      <Filter>Script\Scene\Scene1</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Script\Scene\BaseScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Script\01. Obj\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>Script\01. Obj\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollManager.h">
+      <Filter>Script\Managers\ScrollManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Script\01. Obj\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>Script\01. Obj\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Turtle.h">
+      <Filter>Script\01. Obj\Turtle</Filter>
+    </ClInclude>
+    <ClInclude Include="Goomba.h">
+      <Filter>Script\01. Obj\Goomba</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Script\Managers\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBMP.h">
+      <Filter>Script\Managers\ResourceManager\BMP</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>Script\Scene\StartScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>Script\Scene\EndScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Player.cpp">
+      <Filter>Script\01. Obj\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Script\00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultWindow.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Script\02. Line</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Script\Managers\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Script\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="InputComponent.cpp">
+      <Filter>Script\Components\InputComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsComponent.cpp">
+      <Filter>Script\Components\PhysicsComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderComponent.cpp">
+      <Filter>Script\Components\ColliderComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolManager.cpp">
+      <Filter>Script\Managers\PoolManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers.cpp">
+      <Filter>Script\Managers\ManagerMediator</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsComponent.cpp">
+      <Filter>Script\Components\GraphicsComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene1.cpp">
+      <Filter>Script\Scene\Scene1</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Script\Scene\BaseScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Script\01. Obj\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>Script\01. Obj\BaseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollManager.cpp">
+      <Filter>Script\Managers\ScrollManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Script\01. Obj\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>Script\01. Obj\Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Turtle.cpp">
+      <Filter>Script\01. Obj\Turtle</Filter>
+    </ClCompile>
+    <ClCompile Include="Goomba.cpp">
+      <Filter>Script\01. Obj\Goomba</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Script\Managers\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBMP.cpp">
+      <Filter>Script\Managers\ResourceManager\BMP</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>Script\Scene\StartScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>Script\Scene\EndScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DefaultWindow.rc">
+      <Filter>Engine\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Engine\리소스 파일</Filter>
+    </Image>
+    <Image Include="DefaultWindow.ico">
+      <Filter>Engine\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>Engine</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
